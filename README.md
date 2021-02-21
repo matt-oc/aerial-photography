@@ -1,5 +1,5 @@
 # Aerial Photography Waterford
-Website for aerial/drone photo company.
+Website for aerial/drone photography company.
 
 ## UX
 
@@ -20,7 +20,7 @@ There are 2 main roles involved, the goals of the potential customer using the s
 
 #### Business Goals
 
-* To Convert potential customers into customers.
+* To convert potential customers into customers.
 * Provide adequate example images/videos to demonstrate past work and provide high quality RAW samples for download.
 * Have contact information readily available and a form to allow contact without leaving the page.
 * Engage users immediately and encourage them to browse further.
@@ -39,7 +39,19 @@ As a user of Waterford Aerial Photography I want to:
 * Understand the areas in which the company operate geographically.
 * Have social media links to get more perspective.
 * Be able to easily navigate the site.
+* Not be bugged by popups or ads.
 
 ### Design Choices
 
 The decision was made to have the site as a single scrolling page with separate content areas. This is due to the relatively modest size of each section and the fact it is easier to scroll than it is to click links. This gives the website a fuller look while also making it easy to navigate.
+
+## Technologies Used
+
+## Testing
+
+## Deployment
+
+The site is hosted on the gh-pages branch of the github repository.
+To deploy it is recommended that a pull request is made from the main branch to the gh-pages branch as this allows for code review before any changes go live.
+
+## Credits
