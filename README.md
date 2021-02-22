@@ -45,6 +45,7 @@ As a user of Waterford Aerial Photography I want to:
 
 The decision was made to have the site as a single scrolling page with separate content areas. This is due to the relatively modest size of each section and the fact it is easier to scroll than it is to click links. This gives the website a fuller look while also making it easy to navigate.
 
+
 ## Technologies Used
 
 ## Testing
