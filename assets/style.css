@@ -16,16 +16,30 @@ h2 {
   margin: 40px 0 40px 0;
 }
 
+.navbar {
+  z-index: 1000;
+}
 
+.navbar a {
+  color: white;
+}
 
 .navbar-nav {
   width: 100%;
 justify-content: flex-end;
 }
 
+.nav-item {
+  margin-right: 20px;
+}
+
 .circle-image {
   border-radius: 800px;
-  border: 2px solid #fcfcfc;
+  box-shadow: 5px 5px 50px #727a74;
+}
+
+.row {
+  margin: 0;
 }
 
 .about .col-6 {
@@ -34,11 +48,42 @@ justify-content: flex-end;
 
 .container-fluid {
   padding: 0;
+  max-width: 100vw;
 }
 
-.jumbotron {
-  background-image: url(images/jumbo-background.jpg);
-  background-size: cover;
-  height: 100vh;
+.landing-screen {
+  margin-top: -80px;
+}
 
+.z-50 {
+  z-index: 50;
+}
+
+/*
+Code adapted from :https://stackoverflow.com/questions/28121731/use-pseudo-element-to-create-background-overlay
+*/
+.landing-screen:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(39,98,206, 0.5);
+  z-index: 3;
+  min-height: 800px;
+
+}
+
+.carousel-inner {
+  height: 100vh;
+  min-height: 800px;
+
+}
+
+.carousel-title {
+  top: 25%;
+}
+
+.carousel-caption {
+  bottom: 28%;
 }

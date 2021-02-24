@@ -56,3 +56,5 @@ The site is hosted on the gh-pages branch of the github repository.
 To deploy it is recommended that a pull request is made from the main branch to the gh-pages branch as this allows for code review before any changes go live.
 
 ## Credits
+Overlay
+https://stackoverflow.com/questions/28121731/use-pseudo-element-to-create-background-overlay
