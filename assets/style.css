@@ -1,3 +1,5 @@
+/* Github: matt-oc */
+
 html {
   height: 100%;
 }
@@ -21,6 +23,20 @@ h2 {
   margin: 40px 0 40px 0;
 }
 
+.blue-bg {
+  background-color: #548CE2;
+}
+
+.dblue-bg {
+  background-color: #52abd1;
+}
+
+.white-content {
+    color: #ffffff;
+}
+
+/* Navigation */
+
 .navbar {
   z-index: 1000;
   top: 0;
@@ -43,27 +59,29 @@ justify-content: flex-end;
   margin-right: 20px;
 }
 
-.circle-image {
-  border-radius: 800px;
-  box-shadow: 5px 5px 50px #727a74;
+/* General Structure */
+
+.container-fluid {
+  padding: 0;
+  max-width: 100vw;
+}
+.section {
+  margin: 0 0 0 0;
+  padding: 100px 0 100px 0;
 }
 
 .row {
   margin: 0;
 }
 
-.about .col-6 {
+.contact-btn-area {
+  width: 100%;
+  display: block;
   justify-content: center;
+  display: flex;
 }
 
-.about p {
-  max-width: 50%;
-}
-
-.container-fluid {
-  padding: 0;
-  max-width: 100vw;
-}
+/* Main banner carousel */
 
 .landing-screen {
   margin-top: -80px;
@@ -73,9 +91,7 @@ justify-content: flex-end;
   z-index: 50;
 }
 
-/*
-Code for overlay adapted from :https://stackoverflow.com/questions/28121731/use-pseudo-element-to-create-background-overlay
-*/
+/* Code for overlay adapted from :https://stackoverflow.com/questions/28121731/use-pseudo-element-to-create-background-overlay */
 .landing-screen:before {
   position: absolute;
   content: "";
@@ -101,6 +117,34 @@ Code for overlay adapted from :https://stackoverflow.com/questions/28121731/use-
   bottom: 28%;
 }
 
-.section {
-  margin: 100px 0 100px 0;
+
+/* About section */
+
+.circle-image {
+  border-radius: 800px;
+  box-shadow: 5px 5px 50px #727a74;
+}
+
+.about .col-6 {
+  justify-content: center;
+}
+
+.about p {
+  max-width: 50%;
+}
+
+/* What we do section */
+
+.services .row {
+  justify-content: center;
+}
+
+.services p {
+  max-width: 80%;
+}
+
+/* Faq Section */
+
+.faq .row {
+  justify-content: center;
 }

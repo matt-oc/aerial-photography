@@ -59,3 +59,4 @@ To deploy it is recommended that a pull request is made from the main branch to 
 ## Credits
 Overlay
 https://stackoverflow.com/questions/28121731/use-pseudo-element-to-create-background-overlay
+ Lightbox from https://lokeshdhakar.com/projects/lightbox2/
