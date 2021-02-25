@@ -155,3 +155,10 @@ justify-content: flex-end;
 .faq .row {
   justify-content: center;
 }
+
+/* Contact us section */
+
+.map, .map-row {
+  width: 100%;
+  height: 400px;
+}

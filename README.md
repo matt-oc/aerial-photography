@@ -61,3 +61,4 @@ Overlay
 https://stackoverflow.com/questions/28121731/use-pseudo-element-to-create-background-overlay
  Lightbox from https://lokeshdhakar.com/projects/lightbox2/
  All images from https://unsplash.com/ or owned by matt-oc. All images are free to use without attribution for everyone.
+ google maps code adapted from the docs https://developers.google.com/maps/documentation/javascript/adding-a-google-map
