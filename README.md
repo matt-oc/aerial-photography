@@ -49,6 +49,7 @@ The decision was made to have the site as a single scrolling page with separate 
 ## Technologies Used
 
 ## Testing
+bugs, the sticky-top navbar was stopping carousel end.
 
 ## Deployment
 
