@@ -47,8 +47,9 @@ The decision was made to have the site as a single scrolling page with separate 
 
 
 ## Technologies Used
-
+https://formspree.io/ for form
 ## Testing
+bugs, the sticky-top navbar was stopping carousel end.
 
 ## Deployment
 
@@ -56,3 +57,10 @@ The site is hosted on the gh-pages branch of the github repository.
 To deploy it is recommended that a pull request is made from the main branch to the gh-pages branch as this allows for code review before any changes go live.
 
 ## Credits
+Overlay
+https://stackoverflow.com/questions/28121731/use-pseudo-element-to-create-background-overlay
+ Lightbox from https://lokeshdhakar.com/projects/lightbox2/
+ All images from https://unsplash.com/ or owned by matt-oc. All images are free to use without attribution for everyone.
+ google maps code adapted from the docs https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+ Scroll anchor offset: https://stackoverflow.com/questions/1418838/html-making-a-link-lead-to-the-anchor-centered-in-the-middle-of-the-page
+ Box shadow generator from https://www.cssmatic.com/box-shadow
