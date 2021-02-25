@@ -81,6 +81,13 @@ justify-content: flex-end;
   display: flex;
 }
 
+.dl-btn-area {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  display: flex;
+}
+
 /* Main banner carousel */
 
 .landing-screen {

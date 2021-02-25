@@ -60,3 +60,4 @@ To deploy it is recommended that a pull request is made from the main branch to 
 Overlay
 https://stackoverflow.com/questions/28121731/use-pseudo-element-to-create-background-overlay
  Lightbox from https://lokeshdhakar.com/projects/lightbox2/
+ All images from https://unsplash.com/ or owned by matt-oc. All images are free to use without attribution for everyone.
