@@ -2,12 +2,14 @@
 
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
-  color: black;
+  color: #0D0E0F;
   font-family: 'Roboto', monospace;
   max-width: 100%;
+  position: relative;
 }
 
 h1,h2,h3 {
@@ -44,6 +46,7 @@ h2 {
   position: fixed;
   width: 100%;
   background-color: transparent!important;
+  height: 65px;
 }
 
 .navbar a {
@@ -57,6 +60,27 @@ justify-content: flex-end;
 
 .nav-item {
   margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    background-color: magenta;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.nav-white {
+  background-color: #ffffff!important;
+  color: #000000!important;
+  /* from https://www.cssmatic.com/box-shadow */
+  -webkit-box-shadow: 0px 10px 19px -8px rgba(162,170,199,1);
+  -moz-box-shadow: 0px 10px 19px -8px rgba(162,170,199,1);
+  box-shadow: 0px 10px 19px -8px rgba(162,170,199,1);
+}
+
+.nav-white a {
+    color: #1D91FD!important;
 }
 
 /* General Structure */
@@ -86,6 +110,13 @@ justify-content: flex-end;
   display: block;
   justify-content: center;
   display: flex;
+}
+ /* Code adapted from the post: https://stackoverflow.com/questions/1418838/html-making-a-link-lead-to-the-anchor-centered-in-the-middle-of-the-page
+ to ensure a suitable stopping position when clicking an anchor link */
+
+#about, #services, #faq, #media, #contact-us {
+  position: absolute;
+ transform: translateY(-14vh);
 }
 
 /* Main banner carousel */
@@ -124,6 +155,10 @@ justify-content: flex-end;
   bottom: 28%;
 }
 
+.landing-quote {
+  font-size: 1.3rem;
+}
+
 
 /* About section */
 
@@ -160,5 +195,29 @@ justify-content: flex-end;
 
 .map, .map-row {
   width: 100%;
-  height: 400px;
+  height: 500px;
+  margin-top: 1%;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: -70px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.footer i {
+  color: #51ABD1;
+  font-size: 1.4rem;
+  margin-left: 5px;
+}
+
+.footer-credits {
+  margin: 0 20px 0 20px;
+  opacity: .7
+}
+
+.footer-credits:hover {
+  opacity: 1;
 }

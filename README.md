@@ -47,7 +47,7 @@ The decision was made to have the site as a single scrolling page with separate 
 
 
 ## Technologies Used
-
+https://formspree.io/ for form
 ## Testing
 bugs, the sticky-top navbar was stopping carousel end.
 
@@ -62,3 +62,8 @@ https://stackoverflow.com/questions/28121731/use-pseudo-element-to-create-backgr
  Lightbox from https://lokeshdhakar.com/projects/lightbox2/
  All images from https://unsplash.com/ or owned by matt-oc. All images are free to use without attribution for everyone.
  google maps code adapted from the docs https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+<<<<<<< HEAD
+=======
+ Scroll anchor offset: https://stackoverflow.com/questions/1418838/html-making-a-link-lead-to-the-anchor-centered-in-the-middle-of-the-page
+ Box shadow generator from https://www.cssmatic.com/box-shadow
+>>>>>>> 2064b93b36ad647e3801a280de425491ee533949
