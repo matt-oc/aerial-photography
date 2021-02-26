@@ -61,6 +61,9 @@ git reflog
 git reset –hard HEAD@{HEAD-NUMBER}
 fixing conflicts
 git pull
+
+Lighthouse used to test page performance.
+Css and Html Validate using the cherk on w3 https://validator.w3.org/
 ## Deployment
 
 The site is hosted on the gh-pages branch of the github repository.
