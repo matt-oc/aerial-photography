@@ -25,6 +25,10 @@ h2 {
   margin: 40px 0 40px 0;
 }
 
+p {
+  font-size:1.2rem;
+}
+
 .blue-bg {
   background-color: #548CE2;
 }
@@ -35,6 +39,10 @@ h2 {
 
 .white-content {
     color: #ffffff;
+}
+
+.url {
+  color: #1D91FC;
 }
 
 /* Navigation */
@@ -196,10 +204,18 @@ justify-content: flex-end;
 
 .about .col-6 {
   justify-content: center;
+  align-items: center;
 }
 
 .about p {
   max-width: 50%;
+}
+
+.about-clamp {
+  max-width: 1500px;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
 }
 
 /* What we do section */
@@ -209,7 +225,9 @@ justify-content: flex-end;
 }
 
 .services p {
-  max-width: 80%;
+  width: 70%;
+  max-width: 1500px;
+  text-align: center;
 }
 
 /* Faq Section */
@@ -224,6 +242,12 @@ justify-content: flex-end;
   width: 100%;
   height: 500px;
   margin-top: 1%;
+}
+
+/* Media Section */
+
+.media-image {
+  width: 80%;
 }
 
 /* Footer */
@@ -252,7 +276,7 @@ justify-content: flex-end;
 /* Animation of drone adapted from https://www.w3schools.com/css/css3_animations.asp */
 #flying-drone {
   position: relative;
-  z-index: 4000;
+  z-index: 5;
   display: block;
   top: 100px;
   animation-timing-function: cubic-bezier(0.1,0.7,0.5,0.1);
@@ -260,7 +284,7 @@ justify-content: flex-end;
 }
 
 @keyframes drone {
-0% { left:50px; top:100px;}
+0% { left:-50px; top:100px;}
 25%  { left:200px; top:100px;}
 50%  { left:400px; top:200px;}
 75%  { left:800px; top:500px;}
