@@ -278,6 +278,20 @@ justify-content: flex-end;
   margin: 30px;
 }
 
+.modal-dialog{
+  width: fit-content;
+}
+
+.lightbox-content {
+  display: none;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 100%;
+}
+}
+
 /* Inset box shadow idea from https://stackoverflow.com/questions/8452739/css-inset-borders */
 .dl-btn:hover {
   color: #ffffff;

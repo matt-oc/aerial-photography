@@ -29,9 +29,9 @@ function initMap() {
 
   // circle
   const cityCircle = new google.maps.Circle({
-      strokeColor: "#FF0000",
+      strokeColor: "#51ABD1",
       strokeOpacity: 0,
-      fillColor: "#FF0000",
+      fillColor: "#51ABD1",
       fillOpacity: 0.35,
       map,
       center: {lat: 52.161583, lng: -7.154476},
@@ -93,3 +93,6 @@ var form = document.getElementById("contact");
         $('.navbar').removeClass("nav-white")
       }
   });
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
