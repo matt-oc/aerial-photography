@@ -84,7 +84,7 @@ var form = document.getElementById("contact");
 // Code for navbar when scrolling past jumbotron/landing area
 
     $(window).scroll(function() {
-      if($(document).scrollTop() + 85 > $('.landing-screen').height()) {
+      if($(document).scrollTop() + 98 > $('.landing-screen').height()) {
         $('.navbar-brand').show();
         $('.navbar').addClass("nav-white")
       }
