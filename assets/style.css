@@ -278,6 +278,10 @@ p {
   display: none;
 }
 
+.media img {
+  max-height: 245px;
+}
+
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 100%;
