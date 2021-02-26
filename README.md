@@ -56,9 +56,9 @@ All elements that are clickable have css effects to further enhance the user exp
 The main layout is done with bootstrap and minimal css has been added to make the site truly custom.
 
 #### Wireframes
-[Mobile](wireframes/Phone View.png)
-[Tablet](wireframes/ipad View.png)
-[Computer](wireframes/Phone View.png)
+![Mobile](wireframes/Phone View.png)
+![Tablet](wireframes/ipad View.png)
+![Computer](wireframes/Phone View.png)
 ## Technologies Used
 
 html
