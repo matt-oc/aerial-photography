@@ -79,7 +79,18 @@ var form = document.getElementById("contact");
     xhr.send(data);
   }
 
+  // Code for navbar when loading on small screen
 
+  $( document ).ready(function() {
+    if($(document).scrollTop() + 98 > $('.landing-screen').height()) {
+      $('.navbar-brand').show();
+      $('.navbar').addClass("nav-white")
+    }
+    else {
+      $('.navbar-brand').hide();
+      $('.navbar').removeClass("nav-white")
+    }
+})
 
 // Code for navbar when scrolling past jumbotron/landing area
 
