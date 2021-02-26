@@ -56,9 +56,9 @@ All elements that are clickable have css effects to further enhance the user exp
 The main layout is done with bootstrap and minimal css has been added to make the site truly custom.
 
 #### Wireframes
-![Mobile](wireframes/Phone View.png)
-![Tablet](wireframes/ipad View.png)
-![Computer](wireframes/Phone View.png)
+![Mobile](/wireframes/Phone View.png)
+![Tablet](/wireframes/ipad View.png)
+![Computer](/wireframes/Phone View.png)
 ## Technologies Used
 
 html
@@ -67,7 +67,7 @@ javascript
 bootstrap
 git and github
 [Formspree](https://formspree.io/)
-[Lightbox from](https://lokeshdhakar.com/projects/lightbox2/)
+[Lightbox](https://lokeshdhakar.com/projects/lightbox2/)
 
 
 ## Testing
@@ -107,13 +107,13 @@ To deploy it is recommended that a pull request is made from the main branch to 
 
 ## Credits
 
-[Bootstrap docs](https://getbootstrap.com/)
-[Overlay adapted from stackoverflow](https://stackoverflow.com/questions/61297397/position-absolute-top0-bottom-0-right0-left0-and-parent-paddings)
-[Lightbox image gallery](https://lokeshdhakar.com/projects/lightbox2/)
-[All images from [unsplash](https://unsplash.com/) or owned by matt-oc. All images are free to use without attribution for everyone.
-[Google maps code adapted from the docs](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
-[Scroll anchor offset from stackoverflow](https://stackoverflow.com/questions/1418838/html-making-a-link-lead-to-the-anchor-centered-in-the-middle-of-the-page)
-[Box shadow generator from cssmatic](https://www.cssmatic.com/box-shadow)
-[Inset box shadow from stackoverflow](https://stackoverflow.com/questions/8452739/css-inset-borders)
-[Drone animation adaptation](https://www.w3schools.com/css/css3_animations.asp)
-[Formspree was used for the form](https://formspree.i)
+[Bootstrap docs](https://getbootstrap.com/)  
+[Overlay adapted from stackoverflow](https://stackoverflow.com/questions/61297397/position-absolute-top0-bottom-0-right0-left0-and-parent-paddings)  
+[Lightbox image gallery](https://lokeshdhakar.com/projects/lightbox2/)  
+[All images from [unsplash](https://unsplash.com/) or owned by matt-oc. All images are free to use without attribution for everyone.  
+[Google maps code adapted from the docs](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)  
+[Scroll anchor offset from stackoverflow](https://stackoverflow.com/questions/1418838/html-making-a-link-lead-to-the-anchor-centered-in-the-middle-of-the-page)  
+[Box shadow generator from cssmatic](https://www.cssmatic.com/box-shadow)  
+[Inset box shadow from stackoverflow](https://stackoverflow.com/questions/8452739/css-inset-borders)  
+[Drone animation adaptation](https://www.w3schools.com/css/css3_animations.asp)  
+[Formspree was used for the form](https://formspree.i)  
