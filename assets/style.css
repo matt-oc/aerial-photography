@@ -208,7 +208,7 @@ p {
   box-shadow: 5px 5px 50px #727a74;
 }
 
-.about .col-6 {
+.about .col-lg-6, .about .col-12 {
   justify-content: center;
   align-items: center;
 }
@@ -439,11 +439,19 @@ p {
   }
 }
 
+@media(max-width:992px) {
+  
+}
+
 @media(max-width:768px) {
   .contact-us p {
     margin-left: 0%;
   }
   .contact {
     margin-bottom: 10%;
+  }
+
+  .about p {
+    max-width: 80%
   }
 }
