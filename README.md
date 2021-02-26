@@ -35,7 +35,6 @@ As a user of Waterford Aerial Photography I want to:
 * Easily find contact information.
 * View plenty of sample images to get a good understanding of the level of work.
 * Clearly understand what the company can/can't help me with.
-* Get an idea of pricing without having to make contact first.
 * Understand the areas in which the company operate geographically.
 * Have social media links to get more perspective.
 * Be able to easily navigate the site.
