@@ -30,6 +30,8 @@ p {
   text-align: center;
   max-width: 1500px;
   width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blue-bg {
@@ -256,12 +258,9 @@ justify-content: flex-end;
   font-size: 1.3rem;
   margin-right: 10px;
 }
-/* Contact us section */
 
-.map, .map-row {
-  width: 100%;
-  height: 500px;
-  margin-top: 1%;
+.card .btn:hover {
+  color:#548DE2;
 }
 
 /* Media Section */
@@ -283,6 +282,79 @@ justify-content: flex-end;
 .dl-btn:hover {
   color: #ffffff;
   box-shadow: inset 0 0 10px #ffffff;
+}
+
+/* Contact us section */
+
+.map, .map-row {
+  width: 100%;
+  height: 500px;
+  margin-top: 1%;
+}
+
+.contact {
+  border-radius: 4px;
+  padding: 30px 16px 30px 16px;
+  width: 50%;
+  background-color: #51ABD1;
+  color: #ffffff;
+  display: grid;
+  align-items: center;
+}
+
+.contact-us p {
+  margin-left: 40%;
+  width: 100%;
+}
+
+.contact label {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.contact input[type='text'], .contact input[type='email'], .contact input[type='number'] {
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  border: none;
+}
+
+.contact-us {
+  border-top: 1px solid #51ABD1;
+}
+
+.contact textarea {
+  padding: 30px 10px 30px 10px;
+  width: 100%;
+  border: none;
+}
+
+.submit-btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-btn-submit {
+  font-size: 1.1rem;
+  color: #ffffff;
+  background-color: #51ABD1;
+  padding: 17px 40px 17px 40px;
+  border: 1px solid #777777;
+  margin-top: 10px;
+  margin-bottom: -17px;
+}
+
+/* Inset box shadow idea from https://stackoverflow.com/questions/8452739/css-inset-borders */
+.contact-btn-submit:hover {
+  color: #ffffff;
+  box-shadow: inset 0 0 10px #ffffff;
+  border: 1px solid #51ABD1;
+}
+
+.contact fieldset {
+  margin: 10px;
+  justify-content: center;
 }
 
 /* Footer */

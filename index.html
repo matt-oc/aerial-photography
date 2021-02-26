@@ -325,16 +325,29 @@ We are mainly based in the south east, you can check out the map in the <a href=
         </div>
       </section>
     </div>
-    <div class="container-fluid section">
-      <section>
+    <div class="container-fluid section contact-us">
+      <section >
         <span id="contact-us"></span>
         <h2>Contact <i class="far fa-arrow-alt-circle-left"></i></h2>
         <div class="row">
-          <div class="col-6 d-flex justify-content-center">
-            <p>Test text</p>
+          <div class="col-4 d-flex justify-content-center align-items-center">
+            <p>Please fill out the contact form if<br>
+              you would like ot get in touch with us<br>
+              or contact us directly by phone.<br><br>
+
+              Waterford Aerial Services LTD<br>
+               57 Queen Street<br>
+               Tramore<br>
+               Co.Waterford<br>
+               Ireland<br>
+               X91 R4A2<br><br>
+               <a href="mailto:someone@yoursite.com">info@waterfordaerialservices.ie</a><br>
+               (051) 334587</p>
+
+
           </div>
-          <div class="col-6 d-flex justify-content-center">
-            <form action="https://formspree.io/f/mqkgvaea" method="POST" id="contact">
+          <div class="col-8 d-flex justify-content-center">
+            <form action="https://formspree.io/f/mqkgvaea" method="POST" id="contact" class="contact">
               <fieldset>
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" required name="name"><br>
@@ -345,7 +358,9 @@ We are mainly based in the south east, you can check out the map in the <a href=
                 <label for="message">Message:</label><br>
                 <textarea id="message" name="message"></textarea><br>
                 <input type="checkbox" name="pref" value="pref"> Contact by email preferred<br>
-                <button type="submit" id="contact-submit" data-submit="Sending">Submit</button>
+                <div class="submit-btn-container">
+                <button type="submit" class="btn contact-btn-submit" id="contact-submit" data-submit="Sending">Submit</button>
+              </div>
 
               </fieldset>
             </form>
