@@ -435,9 +435,39 @@ p {
   .contact-us p {
     margin-left: 10%;
   }
+
+  .carousel-caption {
+    bottom:15%;
+  }
+
+  .carousel-indicators {
+    bottom: 12%;
+  }
+
+  .about-sec {
+    padding-top: 0px;
+  }
 }
 
-@media(max-width:992px) {}
+@media(max-width:1054px) {
+  .carousel-caption {
+    bottom:10%;
+  }
+
+  .carousel-indicators {
+    bottom: 18%;
+  }
+}
+
+@media(max-width:992px) {
+  .about-sec {
+  padding-top: 100px;
+}
+.navbar-collapse {
+  background-color: #fff;
+  padding-left: 50px;
+}
+}
 
 @media(max-width:768px) {
   .contact-us p {
@@ -451,4 +481,28 @@ p {
   .about p {
     max-width: 80%
   }
+}
+
+@media(max-width:570px) {
+  .contact-us p {
+    margin-left: 0%;
+  }
+  .contact {
+    width: 95%;
+  }
+
+  .about p {
+    max-width: 95%
+  }
+
+  .navbar img {
+    height: 23px;
+  }
+  .dl-btn-area {
+    flex-flow: column;
+  }
+}
+
+@media(min-width:2249px) {
+
 }
